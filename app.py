@@ -144,7 +144,8 @@ async def on_message(message):
                 url='https://render-%s.worldofwarcraft.com/character/%s?_%s' % (
                     region, info['thumb'], epoch_time))
             msg.set_footer(
-                text='!armory help
+				text='!armory help',
+				icon_url="https://raw.githubusercontent.com/JamesIves/discord-wow-armory-bot/master/assets/icon.png")
             msg.add_field(
                 name='Character',
                 value='**`Name`:** `%s`\n**`Realm`:** `%s (%s)`\n**`Battlegroup`:** `%s`\n**`Item Level`:** `%s`' % (
