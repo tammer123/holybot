@@ -86,7 +86,7 @@ async def on_message(message):
                 url='https://render-%s.worldofwarcraft.com/character/%s?_%s' % (
                     region, info['thumb'], epoch_time))
             msg.set_footer(
-                text='!armory help
+                text='!armory help'
             msg.add_field(
                 name='Character',
                 value='**`Name`:** `%s`\n**`Realm`:** `%s (%s)`\n**`Item Level`:** `%s`' % (
