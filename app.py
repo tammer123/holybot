@@ -310,6 +310,7 @@ async def on_message(message):
             !armory pvp <armory-link> <region>
             !armory token <region>
 
+            ```
             """
 
         msg = "%s".format(message) % re.sub(
